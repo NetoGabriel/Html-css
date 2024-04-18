@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* Html id em css #
+html e class em css .*/
+
+body{background-color: rgb(58, 109, 103);
+font-family: Arial, Helvetica, sans-serif;}
+
+h1{color: rgb(0, 0, 0);
+font-size: 2,5em;}
+
+h1#Principal{text-align: center;
+    background-color: rgb(21, 46, 41);
+    border-radius: 20px;
+color: rgb(247, 244, 244);
+font-size: 3em;}
+
+h2{color: rgb(121, 8, 8);}
+
+p{color: rgb(14, 23, 32);}
+
+.Basico{color: rgb(153, 157, 161);}
+
+.Intermediario{color: chocolate;}
+
+.Avancado{color: rgb(128, 1, 1);}
