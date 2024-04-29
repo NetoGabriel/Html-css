@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        table{border-collapse: collapse;
+        width: 500px;}
+        tr > th{border: 1px solid black;
+        padding: 10px;
+         text-align: center;}
+        tr > td{border: 1px solid black;
+        padding: 10px;
+        text-align: center;}
+
+        .nn{font-weight: bolder;}
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>Filmes Favoritos</strong></caption>
+        <thead>
+            <tr>
+                <th scope="col" class="nn">Grupo</td>
+                <th scope="col" class="nn" colspan="2">Nomes</td>
+                <th scope="colgroup" class="nn"colspan="3">Filmes</td>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope=" rowgroup" class="nn" rowspan="3">Mulheres</td>
+                <td colspan="2">Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <td colspan="2">Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+            
+            </tr>
+            <td colspan="2 ">Claudia Melo</td>
+            <td>oblivion</td>
+            <td>Matriz</td>
+            <td>Big Hero</td>
+            <tr>
+                <th scope="rowgroup" class="nn" rowspan="3">homens</td>
+                <td colspan="2">Bruno Mendonça</td>
+                <td>Intocaveis</td>
+                <td>amnésia</td>
+                <td>Gladior</td>
+            </tr>
+            <tr>
+                <td colspan="2">Daniel Lourenço</td>
+                <td>Wall-e</td>
+                <td>OLd-boy</td>
+                <td>Dangal</td>
+            
+            </tr>
+            <tr>
+                <td colspan="2">Fabiano Mota</td>
+                <td>Star Warls</td>
+                <td>Taxi Drivers</td>
+                <td>Toy Story </td>
+            
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="5"><strong>Total</strong> </th>
+                <td>464</td>
+                
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
