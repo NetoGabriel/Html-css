@@ -6,6 +6,40 @@
     <title>Formularios</title>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Estado</label>
+                <select name="estado" id="iest">
+
+                    <option value="" selected>------Escolha------</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio De Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerai</option>
+                    </optgroup>
+
+                    <optgroup label="Região Nordeste">
+                        <option value="RN">Rio Grande Do Norte</option>
+                        <option value="MA">Maranhãol</option>
+                        <option value="PE">Pernambuco</option>
+                    </optgroup>
+                </select>
+        </p>
+
+        <p>
+            <label for="ipro">Profissão</label>
+            <input type="text" name="professor" id="ipro" list="lstpro"></input>
+            <datalist id="lstpro">
+                <option>Administrador</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label>
+            <textrea name="" id="" col></textrea>
+        </p>
+    </form>
+    poder do sub conciente
 </body>
 </html>
